@@ -23,3 +23,16 @@ Before running this script, ensure you have the following:
   ```bash
   pip install boto3
   pip install boto3 botocore
+## Contributions 
+-Data Ingestion and S3 Setup
+  -Python script to simulate IoT sensor data.
+  -Code to stream data to S3 in real time.
+  -Configuration of S3 buckets and IAM roles using the AWS SDK.
+-Data Processing and EMR Setup
+  -Code to set up and configure the EMR cluster.
+  -A spark job script has been developed to process the streaming data.
+  -Verification that processed data is correctly stored back in S3.
+-Monitoring, CloudWatch Setup, and Documentation
+  -Set up CloudWatch monitoring for the EMR cluster using the AWS SDK (boto3).
+  -Configure CloudWatch metrics and alarms to monitor the performance of the EMR cluster.
+
